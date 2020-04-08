@@ -6,5 +6,5 @@ birth_year = actual_year - age
 i = birth_year
 while (i < actual_year)
     i += 1
-    puts "Il y a #{actual_year - i}, tu avais #{i - birth_year} ans"
+    puts "Il y a #{actual_year - i} ans, tu avais #{i - birth_year} ans"
   end
