@@ -1,7 +1,7 @@
 puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu, entre 1 et 25 ?"
 print ">"
 number = gets.chomp.to_i
-if number > 25
+if number > 25 || number < 1
     then puts "Merci de rentrer un nombre entre 1 et 25"
     number = gets.chomp.to_i
     print ">"
