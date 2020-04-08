@@ -8,7 +8,7 @@ while (i < actual_year)
     i += 1
     x = actual_year - i
     y = i - birth_year
-    puts "Il y a #{actual_year - i}, tu avais #{i - birth_year} ans"
+    puts "Il y a #{actual_year - i} ans, tu avais #{i - birth_year} ans"
     puts "Il y a #{actual_year - i} ans, tu avais la moitié de l'âge que tu as aujourd'hui" if(x == y)
 end
   
